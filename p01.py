@@ -60,6 +60,6 @@ print(hq_address.street)
 print(invoice_address)
 
 
-file_manager = FileManager(file_path='datoteke_test')
+file_manager = FileManager(file_path='datoteke_test1')
 file_manager.write(hq_address, 'address', 'w')
 file_manager.write(invoice_address, 'address')
